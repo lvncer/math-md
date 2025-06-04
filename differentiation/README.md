@@ -102,6 +102,8 @@ $y = (x^2 + 1)^3$ を微分する
 
 - $u = x^2 + 1$, $y = u^3$ とおく
 - $\frac{du}{dx} = 2x$, $\frac{dy}{du} = 3u^2$
+- $\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$
+  より
 - $\frac{dy}{dx} = 3u^2 \cdot 2x = 3(x^2 + 1)^2 \cdot 2x = 6x(x^2 + 1)^2$
 
 ---
